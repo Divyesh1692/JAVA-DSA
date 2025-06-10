@@ -10,4 +10,4 @@ public class avg_of_array {
     }
 }
 // time complexity: O(n)
-// space complexity: O(1)
+// space complexity: O(n)

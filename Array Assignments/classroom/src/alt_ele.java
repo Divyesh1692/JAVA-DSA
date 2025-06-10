@@ -6,3 +6,5 @@ public class alt_ele {
         }
     }
 }
+// time complexity: O(n)
+// space complexity: O(n)

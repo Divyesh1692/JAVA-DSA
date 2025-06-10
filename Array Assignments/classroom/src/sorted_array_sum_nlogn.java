@@ -10,5 +10,5 @@ public class sorted_array_sum_nlogn {
     }
 }
 // time complexity: O(n)
-// space complexity: O(1)
+// space complexity: O(n)
 

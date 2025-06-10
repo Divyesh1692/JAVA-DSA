@@ -18,5 +18,5 @@ public class small_ele_count {
     }
 }
 // time complexity: O(n^2)
-// space complexity: O(1)
+// space complexity: O(n)
 

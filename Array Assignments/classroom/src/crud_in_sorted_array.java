@@ -77,5 +77,3 @@ public class crud_in_sorted_array {
         return false;
     }
 }
-// time complexity: O(n)
-// space complexity: O(n)

@@ -1,9 +1,9 @@
 public class find_ele_row_colum_sorted_mat {
     public static void main(String[] args) {
-        int [][]mat = { {1,10,25,50},
-                        {3,12,27,60},
-                        {6,15,29,61},
-                        {9,17,32,68}
+        int [][]mat = { {1,3,5,10},
+                        {12,15,17,20},
+                        {24,25,29,31},
+                        {39,40,42,48}
                         };
         int row= mat.length-1; int col = mat[0].length-1;
         int k=67;

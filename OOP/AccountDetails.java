@@ -4,6 +4,8 @@ public class AccountDetails {
         acc.setAccountDetails(123456, "Divyesh", 1000000.0, 10.0);
         acc.calculateInterest();
         acc.displayAccountDetails();
+        acc.deposit(20000);
+        acc.withdraw(500);
     }
 }
 
@@ -32,5 +34,19 @@ class Account{
         System.out.println("Customer Name  : " + custName);
         System.out.println("Balance        : " + balance);
         System.out.println("Interest Rate  : " + interestRate + "%");
+    }
+
+    public void withdraw(double amount) {
+        if (amount <= balance) {
+            balance -= amount;
+            System.out.println("₹" + amount + " withdrawn successfully.");
+        } else {
+            System.out.println("Insufficient balance. Withdrawal failed.");
+        }
+    }
+
+    public void deposit(double amount) {
+        balance += amount;
+        System.out.println("₹" + amount + " deposited successfully.");
     }
 }

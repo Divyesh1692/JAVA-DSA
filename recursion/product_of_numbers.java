@@ -1,4 +1,4 @@
-public class rev_number {
+public class product_of_numbers {
     public static void main(String[] args) {
         int a=12;
         int b=3;
